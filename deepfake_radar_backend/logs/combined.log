@@ -1,0 +1,90 @@
+{"level":"info","message":"Server running in development mode on port 3002","service":"deepfake-radar-backend","timestamp":"2025-09-05 22:25:22"}
+{"level":"info","message":"::1 - - [05/Sep/2025:16:56:54 +0000] \"GET /api/health HTTP/1.1\" 200 117 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.5074\"","service":"deepfake-radar-backend","timestamp":"2025-09-05 22:26:54"}
+{"level":"info","message":"::1 - - [05/Sep/2025:16:58:21 +0000] \"GET /api/analysis/formats HTTP/1.1\" 200 94 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.5074\"","service":"deepfake-radar-backend","timestamp":"2025-09-05 22:28:21"}
+{"level":"info","message":"::1 - - [05/Sep/2025:16:59:34 +0000] \"GET /api/analysis/status HTTP/1.1\" 200 124 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.5074\"","service":"deepfake-radar-backend","timestamp":"2025-09-05 22:29:34"}
+{"level":"info","message":"::1 - - [05/Sep/2025:17:04:30 +0000] \"GET /api/health HTTP/1.1\" 200 118 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"deepfake-radar-backend","timestamp":"2025-09-05 22:34:30"}
+{"level":"info","message":"::1 - - [05/Sep/2025:17:04:36 +0000] \"GET /api/health HTTP/1.1\" 200 117 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\"","service":"deepfake-radar-backend","timestamp":"2025-09-05 22:34:36"}
+{"level":"info","message":"::1 - - [05/Sep/2025:18:58:36 +0000] \"GET /api/health HTTP/1.1\" 200 119 \"http://localhost:5174/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36\"","service":"deepfake-radar-backend","timestamp":"2025-09-06 00:28:36"}
+{"level":"info","message":"::1 - - [05/Sep/2025:19:04:12 +0000] \"GET /api/health HTTP/1.1\" 200 119 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.5074\"","service":"deepfake-radar-backend","timestamp":"2025-09-06 00:34:12"}
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-09-07T13:11:27.284Z"}
+{"level":"info","message":"File uploaded for analysis: Unke Andaz e Karam _ Zurarah Ishfaq _ Poora Masla Explained _ Wo Bhi Apne Na Huwy _ Music Maestro.mp3 (1849928 bytes)","service":"deepfake-radar-api","timestamp":"2025-09-07T13:13:11.095Z"}
+{"level":"info","message":"File uploaded for analysis: WhatsApp Video 2025-08-27 at 11.26.49 AM.mp4 (21229519 bytes)","service":"deepfake-radar-api","timestamp":"2025-09-07T13:13:35.313Z"}
+{"level":"info","message":"File uploaded for analysis: download.mp4 (145036 bytes)","service":"deepfake-radar-api","timestamp":"2025-09-07T13:15:18.893Z"}
+{"level":"info","message":"File uploaded for analysis: download.mp4 (145036 bytes)","service":"deepfake-radar-api","timestamp":"2025-09-07T13:17:24.072Z"}
+2025-09-07T14:30:17.150Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-09-07T14:30:17.521Z"}
+2025-09-07T14:30:17.493Z [deepfake-radar-api] info: Azure Speech Services client initialized
+{"level":"info","message":"File uploaded for analysis: download.mp4 (145036 bytes)","service":"deepfake-radar-api","timestamp":"2025-09-07T14:32:11.948Z"}
+{"level":"info","message":"File uploaded for analysis: download.mp4 (145036 bytes)","service":"deepfake-radar-api","timestamp":"2025-09-07T14:42:57.285Z"}
+{"level":"info","message":"File uploaded for analysis: download.mp4 (145036 bytes)","service":"deepfake-radar-api","timestamp":"2025-09-07T14:44:08.652Z"}
+2025-10-02T06:11:04.143Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:11:04.661Z"}
+2025-10-02T06:11:04.644Z [deepfake-radar-api] info: Azure Speech Services client initialized
+{"level":"info","message":"File uploaded for analysis: D_Model_Hand_Animation_Generation.mp4 (1361493 bytes)","service":"deepfake-radar-api","timestamp":"2025-10-02T06:15:19.442Z"}
+{"level":"info","message":"File uploaded for analysis: D_Model_Hand_Animation_Generation.mp4 (1361493 bytes)","service":"deepfake-radar-api","timestamp":"2025-10-02T06:20:42.306Z"}
+2025-10-02T06:21:32.305Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:21:32.795Z"}
+2025-10-02T06:21:32.761Z [deepfake-radar-api] info: Azure Speech Services client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:21:37.668Z"}
+2025-10-02T06:21:37.194Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+2025-10-02T06:21:37.643Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-10-02T06:22:10.074Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:22:10.492Z"}
+2025-10-02T06:22:10.460Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-10-02T06:22:48.409Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:22:48.788Z"}
+2025-10-02T06:22:48.769Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-10-02T06:22:53.189Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:22:53.701Z"}
+2025-10-02T06:22:53.671Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-10-02T06:23:22.794Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:23:23.302Z"}
+2025-10-02T06:23:23.280Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-10-02T06:23:25.952Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:23:26.270Z"}
+2025-10-02T06:23:26.249Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-10-02T06:23:30.685Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:23:31.056Z"}
+2025-10-02T06:23:31.037Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-10-02T06:23:58.498Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:23:58.914Z"}
+2025-10-02T06:23:58.896Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-10-02T06:24:01.294Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:24:01.626Z"}
+2025-10-02T06:24:01.607Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-10-02T06:24:06.169Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:24:06.476Z"}
+2025-10-02T06:24:06.460Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-10-02T06:24:43.521Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:24:44.080Z"}
+2025-10-02T06:24:44.055Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-10-02T06:24:49.191Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:24:49.557Z"}
+2025-10-02T06:24:49.538Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-10-02T06:25:05.074Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:25:05.424Z"}
+2025-10-02T06:25:05.408Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-10-02T06:25:47.675Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:25:48.237Z"}
+2025-10-02T06:25:48.216Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-10-02T06:25:52.977Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:25:53.347Z"}
+2025-10-02T06:25:53.324Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-10-02T06:30:27.715Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-02T06:30:28.076Z"}
+2025-10-02T06:30:28.059Z [deepfake-radar-api] info: Azure Speech Services client initialized
+{"level":"info","message":"File uploaded for analysis: D_Model_Hand_Animation_Generation.mp4 (1361493 bytes)","service":"deepfake-radar-api","timestamp":"2025-10-02T06:32:17.419Z"}
+{"level":"info","message":"File uploaded for analysis: D_Model_Hand_Animation_Generation.mp4 (1361493 bytes)","service":"deepfake-radar-api","timestamp":"2025-10-04T02:55:47.859Z"}
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-10-04T12:40:50.610Z"}
+2025-10-04T12:40:50.058Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+2025-10-04T12:40:50.582Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-12-21T16:32:22.612Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-12-21T16:32:23.181Z"}
+2025-12-21T16:32:23.164Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-12-21T16:32:53.774Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-12-21T16:32:54.150Z"}
+2025-12-21T16:32:54.134Z [deepfake-radar-api] info: Azure Speech Services client initialized
+2025-12-21T16:35:02.091Z [deepfake-radar-api] info: Google Cloud Vision API client initialized
+{"level":"info","message":"Server started on port 3002","service":"deepfake-radar-api","timestamp":"2025-12-21T16:35:02.440Z"}
+2025-12-21T16:35:02.424Z [deepfake-radar-api] info: Azure Speech Services client initialized
+{"level":"info","message":"File uploaded for analysis: Dog_and_Monkey_Dance_Video.mp4 (5798770 bytes)","service":"deepfake-radar-api","timestamp":"2025-12-21T16:39:08.346Z"}

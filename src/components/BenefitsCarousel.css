@@ -1,0 +1,254 @@
+/* Benefits Section Styles */
+.benefits-section {
+  width: 100%;
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  overflow: hidden;
+}
+
+.benefits-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 0 1rem;
+}
+
+.benefits-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.benefits-header p {
+  font-size: 1.125rem;
+  color: #64748b;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Carousel Container */
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  mask: linear-gradient(
+    90deg,
+    transparent 0%,
+    white 5%,
+    white 95%,
+    transparent 100%
+  );
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent 0%,
+    white 5%,
+    white 95%,
+    transparent 100%
+  );
+}
+
+/* Carousel Track */
+.carousel-track {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0 1.5rem;
+  animation: scroll 30s linear infinite;
+  width: max-content;
+}
+
+/* Pause animation on hover over the entire container */
+.carousel-container:hover .carousel-track {
+  animation-play-state: paused;
+}
+
+/* Infinite scroll keyframes */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 0.75rem));
+  }
+}
+
+/* Benefit Box Styles */
+.benefit-box {
+  flex: 0 0 auto;
+  width: 320px;
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(226, 232, 240, 0.5);
+}
+
+.benefit-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.benefit-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.benefit-box:hover::before {
+  transform: scaleX(1);
+}
+
+/* Benefit Icon */
+.benefit-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #f1f5f9, #e2e8f0);
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+}
+
+.benefit-box:hover .benefit-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* Benefit Title */
+.benefit-title {
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+  text-align: center;
+  line-height: 1.3;
+}
+
+/* Benefit Description */
+.benefit-description {
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .benefits-section {
+    padding: 3rem 0;
+  }
+  
+  .benefits-header h2 {
+    font-size: 2rem;
+  }
+  
+  .benefits-header p {
+    font-size: 1rem;
+  }
+  
+  .benefit-box {
+    width: 280px;
+    padding: 1.5rem;
+  }
+  
+  .benefit-icon {
+    font-size: 2.5rem;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .benefit-title {
+    font-size: 1.25rem;
+  }
+  
+  .benefit-description {
+    font-size: 0.9rem;
+  }
+  
+  .carousel-track {
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+  
+  /* Adjust animation duration for mobile */
+  .carousel-track {
+    animation-duration: 25s;
+  }
+}
+
+@media (max-width: 480px) {
+  .benefit-box {
+    width: 260px;
+    padding: 1.25rem;
+  }
+  
+  .benefit-icon {
+    font-size: 2.25rem;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .benefit-title {
+    font-size: 1.125rem;
+  }
+  
+  .benefit-description {
+    font-size: 0.875rem;
+  }
+  
+  /* Faster scroll on small screens */
+  .carousel-track {
+    animation-duration: 20s;
+  }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .carousel-track {
+    animation-duration: 60s;
+  }
+  
+  .benefit-box {
+    transition-duration: 0.1s;
+  }
+  
+  .benefit-icon {
+    transition-duration: 0.1s;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .benefit-box {
+    border-width: 2px;
+    border-color: #374151;
+  }
+  
+  .benefit-title {
+    color: #111827;
+  }
+  
+  .benefit-description {
+    color: #374151;
+  }
+}
