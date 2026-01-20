@@ -72,7 +72,30 @@ const upload = multer({
 });
 
 // Apply middleware
-app.use(cors());
+// CORS configuration - allows GitHub Pages and local development
+const allowedOrigins = [
+  'http://localhost:5173',
+  'http://localhost:5174',
+  'http://localhost:5175',
+  'https://jimmy-alt-code.github.io',
+  process.env.FRONTEND_URL
+].filter(Boolean);
+
+app.use(cors({
+  origin: function (origin, callback) {
+    // Allow requests with no origin (mobile apps, curl, etc.)
+    if (!origin) return callback(null, true);
+    
+    if (allowedOrigins.includes(origin) || 
+        origin.includes('github.io') ||
+        origin.includes('localhost')) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true
+}));
 app.use(helmet());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -285,7 +308,8 @@ app.use((err, req, res, next) => {
 });
 
 // Start server
-app.listen(PORT, () => {
+// Listen on 0.0.0.0 to accept connections from Railway's load balancer
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`🚀 Deepfake Radar API server running on port ${PORT}`);
   logger.info(`Server started on port ${PORT}`);
 });
