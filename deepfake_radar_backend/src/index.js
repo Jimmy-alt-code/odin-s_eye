@@ -107,7 +107,16 @@ const apiLimiter = rateLimit({
   max: 100, // limit each IP to 100 requests per windowMs
   message: 'Too many requests from this IP, please try again later.'
 });
-app.use('/api/', apiLimiter);
+// Health check endpoints (before rate limiting to respond quickly)
+// Root path for Railway health checks
+app.get('/', (req, res) => {
+  res.json({
+    success: true,
+    message: 'Deepfake Radar API is running',
+    status: 'healthy',
+    timestamp: new Date().toISOString()
+  });
+});
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
@@ -124,6 +133,8 @@ app.get('/api/health', (req, res) => {
     }
   });
 });
+
+app.use('/api/', apiLimiter);
 
 // Analysis status endpoint
 app.get('/api/analysis/status', (req, res) => {
